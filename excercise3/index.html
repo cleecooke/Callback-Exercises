@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Callback Within Callback</h1>
+            <form>
+                <div class="form-group">
+                    <label>Delayed Seconds</label>
+                    <input type="number" name="seconds" id="seconds" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <button type="button" class="btn btn-success" id="submitBtn">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script type="text/javascript">
+        //In this code will using a callback within a callback
+        //Implement the following
+        // 1. Get the button by its ID
+        // 2. Assign to a variable
+        // 3. Add an event listener to the buttons element that when the button
+        //    is clicked, it retrieves the number of seconds in the seconds element
+        // 4. Have an if statement that checks if the input is a number. The function
+        //    isNan is a good starting point for this check.
+        // 5. If the number is not a number, print an alert "Input must be a number"
+        // 6. If the number is a number, use a setTimeout function. In the setTimeout function:
+        //      1. The callback should print "x milliseconds have passed" where x is the retrieved number
+        //      2. the millisecond timeout should be justt the inputted number      
+    </script>
+</html>
