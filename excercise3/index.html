@@ -10,7 +10,7 @@
             <form>
                 <div class="form-group">
                     <label>Delayed Seconds</label>
-                    <input type="number" name="seconds" id="seconds" class="form-control" />
+                    <input type="number" name="seconds" id="seconds" class="form-control" min="0" max="99999" value="0"/>
                 </div>
                 <div class="form-group">
                     <button type="button" class="btn btn-success" id="submitBtn">
@@ -34,4 +34,5 @@
         //      1. The callback should print "x milliseconds have passed" where x is the retrieved number
         //      2. The millisecond timeout should be the same inputted number     
     </script>
+    <script src="script.js"></script>
 </html>
